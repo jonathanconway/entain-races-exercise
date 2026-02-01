@@ -1,0 +1,215 @@
+{
+  "status": 200,
+  "data": {
+    "next_to_go_ids": [
+      "240657b3-614b-4397-8975-55b3632b5093",
+      "3a9b5f54-731b-4e35-b44c-10d6b0247ee5",
+      "3d3fbcca-e88e-4a52-aef5-bdf10365f780",
+      "85eaa1bf-0ca8-4e4f-a52c-1d04d9bdeeaf",
+      "cbd299c0-6ac3-4640-8969-b3f8adad1321"
+    ],
+    "race_summaries": {
+      "240657b3-614b-4397-8975-55b3632b5093": {
+        "race_id": "240657b3-614b-4397-8975-55b3632b5093",
+        "race_name": "WRC Tickets On Sale 5th February 2YO Handicap ",
+        "race_number": 1,
+        "meeting_id": "d32dbe64-157a-4d74-b5c1-9ebb4ca810ee",
+        "meeting_name": "Townsville",
+        "category_id": "4a2788f8-e825-4d36-9894-efd4baf1cfae",
+        "advertised_start": { "seconds": 1770090300 },
+        "race_form": {
+          "distance": 1000,
+          "distance_type": {
+            "id": "570775ae-09ec-42d5-989d-7c8f06366aa7",
+            "name": "Metres",
+            "short_name": "m"
+          },
+          "distance_type_id": "570775ae-09ec-42d5-989d-7c8f06366aa7",
+          "track_condition": {
+            "id": "066119d8-3b74-11e8-a5eb-06a5c6d9a756",
+            "name": "Soft5",
+            "short_name": "soft5"
+          },
+          "track_condition_id": "066119d8-3b74-11e8-a5eb-06a5c6d9a756",
+          "weather": {
+            "id": "0b43a420-3b75-11e8-a5eb-06a5c6d9a756",
+            "name": "Overcast",
+            "short_name": "overcast",
+            "icon_uri": "Overcast"
+          },
+          "weather_id": "0b43a420-3b75-11e8-a5eb-06a5c6d9a756",
+          "race_comment": "GONE COUNTRY (2) was an easy trial winner before leading and spacing her rivals by 3.5L this track/trip/grade (SP$2.60). There's no weight penalty and she can go back-to-back with the extra fitness. Stablemate SCARLENA (5) jumped a $1.9 favourite in the same contest and placed second behind the above. Lost a plate in running and pulled up with minor lacerations. Worth another chance. From the same stable TAMBO'S SISTER (6) creates interest. Debuts owning a 3.2L trial win here over 850m and Wiggins' booking is a positive. A bold run is on the cards. ON LOCATION (4) was well supported at Mackay on debut and dropped right out (vet cleared). He's obviously better than that and has been freshened 35 days. Respect the stable.",
+          "additional_data": "{\"revealed_race_info\":{\"track_name\":\"Townsville\",\"state\":\"QLD\",\"country\":\"AUS\",\"number\":1,\"race_name\":\"WRC Tickets On Sale 5th February 2YO Handicap \",\"time\":\"2026-02-03T03:45:00Z\",\"class\":\"Open 2Y HCP\",\"start_type\":\"\",\"prizemonies\":{\"10th\":400,\"1st\":11600,\"2nd\":3800,\"3rd\":1950,\"4th\":1000,\"5th\":650,\"6th\":400,\"7th\":400,\"8th\":400,\"9th\":400,\"total_value\":21000},\"localised_prizemonies\":{\"AUD\":{\"10th\":400,\"1st\":11600,\"2nd\":3800,\"3rd\":1950,\"4th\":1000,\"5th\":650,\"6th\":400,\"7th\":400,\"8th\":400,\"9th\":400,\"total_value\":21000},\"NZD\":{\"10th\":464,\"1st\":13456,\"2nd\":4408,\"3rd\":2262,\"4th\":1160,\"5th\":754,\"6th\":464,\"7th\":464,\"8th\":464,\"9th\":464,\"total_value\":24360}},\"rail_position\":\"+7m 1000m-W/Post; +2m Remainder.\",\"track_direction\":\"Right\",\"track_surface\":\"Turf\",\"group\":\"\",\"gait\":\"Gallop\",\"track_home_straight_metres\":0,\"track_circumference\":1680,\"race_comment_provider\":\"racingandsports\"}}",
+          "generated": 1,
+          "silk_base_url": "drr38safykj6s.cloudfront.net",
+          "race_comment_alternative": "GONE COUNTRY (2) was an easy trial winner before leading and spacing her rivals by 3.5L this track/trip/grade (SP$2.60). There's no weight penalty and she can go back-to-back with the extra fitness. Stablemate SCARLENA (5) jumped a $1.9 favourite in the same contest and placed second behind the above. Lost a plate in running and pulled up with minor lacerations. Worth another chance. From the same stable TAMBO'S SISTER (6) creates interest. Debuts owning a 3.2L trial win here over 850m and Wiggins' booking is a positive. A bold run is on the cards. ON LOCATION (4) was well supported at Mackay on debut and dropped right out (vet cleared). He's obviously better than that and has been freshened 35 days. Respect the stable."
+        },
+        "venue_id": "b63f2703-9e89-4512-92ca-65320e8a3483",
+        "venue_name": "Townsville",
+        "venue_state": "QLD",
+        "venue_country": "AUS"
+      },
+      "3a9b5f54-731b-4e35-b44c-10d6b0247ee5": {
+        "race_id": "3a9b5f54-731b-4e35-b44c-10d6b0247ee5",
+        "race_name": "Join Corporate Stable Thecreek.com.au Handicap Mobile Pace",
+        "race_number": 2,
+        "meeting_id": "a0d4242f-9cbf-4a94-92f0-41bdeb33aee4",
+        "meeting_name": "Albion Park",
+        "category_id": "161d9be2-e909-4326-8c2c-35ed71fb460b",
+        "advertised_start": { "seconds": 1770090360 },
+        "race_form": {
+          "distance": 2138,
+          "distance_type": {
+            "id": "570775ae-09ec-42d5-989d-7c8f06366aa7",
+            "name": "Metres",
+            "short_name": "m"
+          },
+          "distance_type_id": "570775ae-09ec-42d5-989d-7c8f06366aa7",
+          "track_condition": {
+            "id": "10a14653-a33d-11e7-810d-0a1a4ae29bd2",
+            "name": "Good",
+            "short_name": "good"
+          },
+          "track_condition_id": "10a14653-a33d-11e7-810d-0a1a4ae29bd2",
+          "weather": {
+            "id": "01994c9e-3b74-11e8-a5eb-06a5c6d9a756",
+            "name": "Fine",
+            "short_name": "fine",
+            "icon_uri": "Fine"
+          },
+          "weather_id": "01994c9e-3b74-11e8-a5eb-06a5c6d9a756",
+          "race_comment": "SEND IT (6) continues to race well having finished second in his last three attempts at this circuit and distance, beaten narrowly in the last two. Deserves another win and could achieve it here. ARKIN WICKED (1) has been solid in similar races to this of late. Things should pan out well for him from this starting position so could pose a serious challenge. AMAMI (5) starts alongside SEND IT on the 20m mark but is in the mix backing up off a fourth here on Saturday. BLACKJACK BART (3) must be respected having added to his consistent form by scoring last start by a nose at Redcliffe.",
+          "additional_data": "{\"revealed_race_info\":{\"track_name\":\"Albion Park\",\"state\":\"QLD\",\"country\":\"AUS\",\"number\":2,\"race_name\":\"Join Corporate Stable Thecreek.com.au Handicap Mobile Pace\",\"time\":\"2026-02-03T03:52:00Z\",\"class\":\"No NR\",\"start_type\":\"Standing\",\"prizemonies\":{\"total_value\":6200},\"localised_prizemonies\":{\"AUD\":{\"1st\":3755,\"2nd\":1073,\"3rd\":536,\"4th\":358,\"5th\":238,\"6th\":60,\"7th\":60,\"8th\":60,\"9th\":60,\"total_value\":6200},\"NZD\":{\"1st\":4356,\"2nd\":1245,\"3rd\":622,\"4th\":415,\"5th\":276,\"6th\":70,\"7th\":70,\"8th\":70,\"9th\":70,\"total_value\":7192}},\"rail_position\":\"\",\"track_direction\":\"Right\",\"track_surface\":\"All Weather\",\"group\":\"\",\"gait\":\"P\",\"track_home_straight_metres\":0,\"track_circumference\":1019,\"race_comment_provider\":\"racingandsports\"}}",
+          "generated": 1,
+          "silk_base_url": "drr38safykj6s.cloudfront.net",
+          "race_comment_alternative": "SEND IT (6) continues to race well having finished second in his last three attempts at this circuit and distance, beaten narrowly in the last two. Deserves another win and could achieve it here. ARKIN WICKED (1) has been solid in similar races to this of late. Things should pan out well for him from this starting position so could pose a serious challenge. AMAMI (5) starts alongside SEND IT on the 20m mark but is in the mix backing up off a fourth here on Saturday. BLACKJACK BART (3) must be respected having added to his consistent form by scoring last start by a nose at Redcliffe."
+        },
+        "venue_id": "41036055-b448-4471-b64b-518543066fd1",
+        "venue_name": "Albion Park",
+        "venue_state": "QLD",
+        "venue_country": "AUS"
+      },
+      "3d3fbcca-e88e-4a52-aef5-bdf10365f780": {
+        "race_id": "3d3fbcca-e88e-4a52-aef5-bdf10365f780",
+        "race_name": "Greyhounds Make Great Pets",
+        "race_number": 1,
+        "meeting_id": "b2b08083-9bca-4a3c-8624-1a2860024db6",
+        "meeting_name": "Q1 Lakeside",
+        "category_id": "9daef0d7-bf3c-4f50-921d-8e818c60fe61",
+        "advertised_start": { "seconds": 1770090540 },
+        "race_form": {
+          "distance": 352,
+          "distance_type": {
+            "id": "570775ae-09ec-42d5-989d-7c8f06366aa7",
+            "name": "Metres",
+            "short_name": "m"
+          },
+          "distance_type_id": "570775ae-09ec-42d5-989d-7c8f06366aa7",
+          "track_condition": {
+            "id": "10a14653-a33d-11e7-810d-0a1a4ae29bd2",
+            "name": "Good",
+            "short_name": "good"
+          },
+          "track_condition_id": "10a14653-a33d-11e7-810d-0a1a4ae29bd2",
+          "weather": {
+            "id": "01994c9e-3b74-11e8-a5eb-06a5c6d9a756",
+            "name": "Fine",
+            "short_name": "fine",
+            "icon_uri": "Fine"
+          },
+          "weather_id": "01994c9e-3b74-11e8-a5eb-06a5c6d9a756",
+          "race_comment": "GOLDSTAR VOGUE (2) turned in a plain run last time when seventh at this track over 352m behind Out Of Austria (21.06) in a Grade 6. Has winning claims on her best figures. WE DIFFERENT (1) turned spotting a big start finishing sixth (31.07) last time in a Grade 6 at Q Parklands. Some good form is emerging from his last run. Can do much better this time. SCOTTY'S IDEA (7) turned in a moderate run last time when seventh at Q Straight over 350m behind Equity (19.76) in a Grade 6. Should be about the money. TAHITIAN STAR (5) looks an each-way chance.",
+          "additional_data": "{\"revealed_race_info\":{\"track_name\":\"Q1 Lakeside\",\"state\":\"QLD\",\"country\":\"AUS\",\"number\":1,\"race_name\":\"Greyhounds Make Great Pets\",\"time\":\"2026-02-03T03:46:00Z\",\"class\":\"6th Grade\",\"start_type\":\"\",\"prizemonies\":{\"total_value\":2400},\"localised_prizemonies\":{\"AUD\":{\"1st\":1560,\"2nd\":480,\"3rd\":240,\"4th\":120,\"total_value\":2400},\"NZD\":{\"1st\":1810,\"2nd\":557,\"3rd\":278,\"4th\":139,\"total_value\":2784}},\"rail_position\":\"\",\"track_direction\":\"Left\",\"track_surface\":\"All Weather\",\"group\":\"\",\"gait\":\"Gallop\",\"track_home_straight_metres\":0,\"track_circumference\":0,\"race_comment_provider\":\"racingandsports\"}}",
+          "generated": 1,
+          "silk_base_url": "drr38safykj6s.cloudfront.net",
+          "race_comment_alternative": "GOLDSTAR VOGUE (2) turned in a plain run last time when seventh at this track over 352m behind Out Of Austria (21.06) in a Grade 6. Has winning claims on her best figures. WE DIFFERENT (1) turned spotting a big start finishing sixth (31.07) last time in a Grade 6 at Q Parklands. Some good form is emerging from his last run. Can do much better this time. SCOTTY'S IDEA (7) turned in a moderate run last time when seventh at Q Straight over 350m behind Equity (19.76) in a Grade 6. Should be about the money. TAHITIAN STAR (5) looks an each-way chance."
+        },
+        "venue_id": "f8c5f4c6-bed7-41a8-81cb-1f8682182b66",
+        "venue_name": "Q1 Lakeside",
+        "venue_state": "QLD",
+        "venue_country": "AUS"
+      },
+      "85eaa1bf-0ca8-4e4f-a52c-1d04d9bdeeaf": {
+        "race_id": "85eaa1bf-0ca8-4e4f-a52c-1d04d9bdeeaf",
+        "race_name": "Outer East Football Netball Club (300+)",
+        "race_number": 12,
+        "meeting_id": "9fc8cc28-38d9-474c-84fe-ffb8c57ee4f2",
+        "meeting_name": "Healesville",
+        "category_id": "9daef0d7-bf3c-4f50-921d-8e818c60fe61",
+        "advertised_start": { "seconds": 1770090720 },
+        "race_form": {
+          "distance": 300,
+          "distance_type": {
+            "id": "570775ae-09ec-42d5-989d-7c8f06366aa7",
+            "name": "Metres",
+            "short_name": "m"
+          },
+          "distance_type_id": "570775ae-09ec-42d5-989d-7c8f06366aa7",
+          "track_condition": {
+            "id": "10a14653-a33d-11e7-810d-0a1a4ae29bd2",
+            "name": "Good",
+            "short_name": "good"
+          },
+          "track_condition_id": "10a14653-a33d-11e7-810d-0a1a4ae29bd2",
+          "weather": {
+            "id": "01994c9e-3b74-11e8-a5eb-06a5c6d9a756",
+            "name": "Fine",
+            "short_name": "fine",
+            "icon_uri": "Fine"
+          },
+          "weather_id": "01994c9e-3b74-11e8-a5eb-06a5c6d9a756",
+          "race_comment": "BE A BEAUTY (5) wasn't far away at the finish when 4th and beaten only 3.5 lengths (17.38) at this track. Has ability and can bounce back. OFFENSIVE LADY (1) turned spotting a big start finishing eighth (26.16) last time in a Grade 5 at Shepparton. Comes out of a solid form race last start. Can measure up this time. BLONDE MUSTANG (7) last start finished 6th on January 25 over 350m at this track behind Zippi Mustang beaten 5.5 lengths (20.10) in a Special conditions Veteran race. Rates a key chance on best figures. BOROUGH MAN (2) should be thereabouts despite an unplaced run here most recently.",
+          "additional_data": "{\"revealed_race_info\":{\"track_name\":\"Healesville\",\"state\":\"VIC\",\"country\":\"AUS\",\"number\":12,\"race_name\":\"Outer East Football Netball Club (300+)\",\"time\":\"2026-02-03T03:53:00Z\",\"class\":\"Bottom Up - Grade 5\",\"start_type\":\"\",\"prizemonies\":{\"total_value\":1530},\"localised_prizemonies\":{\"AUD\":{\"1st\":1000,\"2nd\":320,\"3rd\":160,\"4th\":50,\"total_value\":1530},\"NZD\":{\"1st\":1160,\"2nd\":371,\"3rd\":186,\"4th\":58,\"total_value\":1775}},\"rail_position\":\"\",\"track_direction\":\"Left\",\"track_surface\":\"All Weather\",\"group\":\"\",\"gait\":\"Gallop\",\"track_home_straight_metres\":0,\"track_circumference\":0,\"race_comment_provider\":\"racingandsports\"}}",
+          "generated": 1,
+          "silk_base_url": "drr38safykj6s.cloudfront.net",
+          "race_comment_alternative": "BE A BEAUTY (5) wasn't far away at the finish when 4th and beaten only 3.5 lengths (17.38) at this track. Has ability and can bounce back. OFFENSIVE LADY (1) turned spotting a big start finishing eighth (26.16) last time in a Grade 5 at Shepparton. Comes out of a solid form race last start. Can measure up this time. BLONDE MUSTANG (7) last start finished 6th on January 25 over 350m at this track behind Zippi Mustang beaten 5.5 lengths (20.10) in a Special conditions Veteran race. Rates a key chance on best figures. BOROUGH MAN (2) should be thereabouts despite an unplaced run here most recently."
+        },
+        "venue_id": "f7cc8008-5d6c-4b8d-8b49-10031b391b74",
+        "venue_name": "Healesville",
+        "venue_state": "VIC",
+        "venue_country": "AUS"
+      },
+      "cbd299c0-6ac3-4640-8969-b3f8adad1321": {
+        "race_id": "cbd299c0-6ac3-4640-8969-b3f8adad1321",
+        "race_name": "Www.gapsa.org.au (N/P) Stake Pr2 Division6",
+        "race_number": 10,
+        "meeting_id": "46053c76-6c8a-4b28-8462-b11811fd8149",
+        "meeting_name": "Angle Park",
+        "category_id": "9daef0d7-bf3c-4f50-921d-8e818c60fe61",
+        "advertised_start": { "seconds": 1770090780 },
+        "race_form": {
+          "distance": 342,
+          "distance_type": {
+            "id": "570775ae-09ec-42d5-989d-7c8f06366aa7",
+            "name": "Metres",
+            "short_name": "m"
+          },
+          "distance_type_id": "570775ae-09ec-42d5-989d-7c8f06366aa7",
+          "track_condition": {
+            "id": "10a14653-a33d-11e7-810d-0a1a4ae29bd2",
+            "name": "Good",
+            "short_name": "good"
+          },
+          "track_condition_id": "10a14653-a33d-11e7-810d-0a1a4ae29bd2",
+          "weather": {
+            "id": "01994c9e-3b74-11e8-a5eb-06a5c6d9a756",
+            "name": "Fine",
+            "short_name": "fine",
+            "icon_uri": "Fine"
+          },
+          "weather_id": "01994c9e-3b74-11e8-a5eb-06a5c6d9a756",
+          "race_comment": "NAILED IT (2) turned spotting a big start finishing fifth (22.47) last time in a Grade 4/5 at Murray Bridge. Ready to return to form. MINH JACK (6) was strongly fancied last time and hit the ground running with a fast early split, paving the way for a 4 length win at Gawler over 400m in 22.87. Winner at his latest appearance in one of the quickest times on the card. Has definite claims. MY RUSTY HALO (8) has been beaten for early speed lately, last time finishing fifth (23.25) in a Other at Gawler. Has a good record at this journey. Can do much better this time. NATURALISM (1) is always a threat when he races at this journey.",
+          "additional_data": "{\"revealed_race_info\":{\"track_name\":\"Angle Park\",\"state\":\"SA\",\"country\":\"AUS\",\"number\":10,\"race_name\":\"Www.gapsa.org.au (N/P) Stake Pr2 Division6\",\"time\":\"2026-02-03T03:49:00Z\",\"class\":\"Other\",\"start_type\":\"\",\"prizemonies\":{\"total_value\":1070},\"localised_prizemonies\":{\"AUD\":{\"1st\":580,\"2nd\":200,\"3rd\":160,\"4th\":130,\"total_value\":1070},\"NZD\":{\"1st\":673,\"2nd\":232,\"3rd\":186,\"4th\":151,\"total_value\":1241}},\"rail_position\":\"\",\"track_direction\":\"Left\",\"track_surface\":\"All Weather\",\"group\":\"\",\"gait\":\"Gallop\",\"track_home_straight_metres\":0,\"track_circumference\":0,\"race_comment_provider\":\"racingandsports\"}}",
+          "generated": 1,
+          "silk_base_url": "drr38safykj6s.cloudfront.net",
+          "race_comment_alternative": "NAILED IT (2) turned spotting a big start finishing fifth (22.47) last time in a Grade 4/5 at Murray Bridge. Ready to return to form. MINH JACK (6) was strongly fancied last time and hit the ground running with a fast early split, paving the way for a 4 length win at Gawler over 400m in 22.87. Winner at his latest appearance in one of the quickest times on the card. Has definite claims. MY RUSTY HALO (8) has been beaten for early speed lately, last time finishing fifth (23.25) in a Other at Gawler. Has a good record at this journey. Can do much better this time. NATURALISM (1) is always a threat when he races at this journey."
+        },
+        "venue_id": "2fd9ea87-0e6c-4b7d-997d-20d6da4f352a",
+        "venue_name": "Angle Park",
+        "venue_state": "SA",
+        "venue_country": "AUS"
+      }
+    }
+  },
+  "message": "Next 5 races from each category"
+}

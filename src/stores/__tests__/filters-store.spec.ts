@@ -1,0 +1,20 @@
+import { createPinia, setActivePinia } from "pinia";
+import { beforeEach, describe, expect, it } from "vitest";
+
+import { useFiltersStore } from "../use-filters-store";
+
+describe("useFiltersStore", () => {
+  beforeEach(() => {
+    setActivePinia(createPinia());
+  });
+
+  it("stores filters and initialises categories so that all are included", () => {
+    const filters = useFiltersStore();
+
+    expect(filters.filters.categoryIds).toEqual([
+      "4a2788f8-e825-4d36-9894-efd4baf1cfae",
+      "9daef0d7-bf3c-4f50-921d-8e818c60fe61",
+      "161d9be2-e909-4326-8c2c-35ed71fb460b",
+    ]);
+  });
+});

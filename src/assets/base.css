@@ -1,0 +1,59 @@
+@import "tailwindcss";
+
+html,
+body,
+#app {
+  height: 100%;
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  color: var(--color-text);
+  background: var(--color-background);
+  transition:
+    color 0.5s,
+    background-color 0.5s;
+  line-height: 1.6;
+  font-family:
+    Inter,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    "Fira Sans",
+    "Droid Sans",
+    "Helvetica Neue",
+    sans-serif;
+  font-size: 15px;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@theme {
+  --color-brand: rgb(245, 93, 5);
+  --color-brand-light: rgb(255, 130, 75);
+  --color-brand-dark: rgb(212, 63, 0);
+
+  --color-ntg-header: #30363a;
+  --color-ntg-header-light: color-mix(in srgb, var(--color-ntg-header), white 20%);
+  --color-ntg-header-dark: color-mix(in srgb, var(--color-ntg-header), black 20%);
+
+  --color-page-background: rgb(231, 235, 239);
+
+  --color-disabled: rgb(81, 101, 123);
+}
