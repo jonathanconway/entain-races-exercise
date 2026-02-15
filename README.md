@@ -494,6 +494,10 @@ Defaults are set before overrides (hover, focus, etc).
 
 Variables are used for branding.
 
+#### Responsive styles
+
+Styling should be mobile-first responsive. Use minimal styling code, preferring settings that work across all screen sizes and devices without media queries. Use only styling features broadly supported by current browsers (check [CanIUse](https://caniuse.com/) if in doubt).
+
 ##### Stores and composables
 
 - Imports
@@ -672,6 +676,7 @@ A simplifying assumption is an assumption made in order to move forward and redu
 - Personally would have preferred to use custom CSS with a strongly-typed framework such as [Vanilla Extract](https://vanilla-extract.style)
 - Opted for plain inline Tailwind classes. This was for simplicity, readability by majority of Tailwind developers and robust implementation. Avoided non-idiomatic approaches like `@apply` or binding to a string array, which carry certain risks and limited support.
 - Tried to minimise classes by keeping design simple and modularising components
+- Plain CSS version is available on the [feat/custom-styling]() branch.
 
 #### Security
 

@@ -1,4 +1,26 @@
-@import "tailwindcss";
+html {
+  --color-brand: rgb(245, 93, 5);
+  --color-brand-light: rgb(255, 130, 75);
+  --color-brand-dark: rgb(212, 63, 0);
+
+  --color-ntg-header: #30363a;
+  --color-ntg-header-light: color-mix(in srgb, var(--color-ntg-header), white 20%);
+  --color-ntg-header-dark: color-mix(in srgb, var(--color-ntg-header), black 20%);
+
+  --color-page-background: rgb(231, 235, 239);
+
+  --color-disabled: rgb(81, 101, 123);
+
+  --color-white: #fff;
+
+  --color-red-200: oklch(88.5% 0.062 18.334);
+  --color-gray-50: oklch(98.5% 0.002 247.839);
+  --color-gray-100: oklch(96.7% 0.003 264.542);
+  --color-gray-200: oklch(92.8% 0.006 264.531);
+  --color-gray-300: oklch(87.2% 0.01 258.338);
+
+  --animate-pulse: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
 
 html,
 body,
@@ -9,6 +31,7 @@ body,
 #app {
   display: flex;
   flex-direction: column;
+  background-color: var(--color-gray-200);
 }
 
 *,
@@ -42,18 +65,17 @@ body {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  margin: 0;
 }
 
-@theme {
-  --color-brand: rgb(245, 93, 5);
-  --color-brand-light: rgb(255, 130, 75);
-  --color-brand-dark: rgb(212, 63, 0);
-
-  --color-ntg-header: #30363a;
-  --color-ntg-header-light: color-mix(in srgb, var(--color-ntg-header), white 20%);
-  --color-ntg-header-dark: color-mix(in srgb, var(--color-ntg-header), black 20%);
-
-  --color-page-background: rgb(231, 235, 239);
-
-  --color-disabled: rgb(81, 101, 123);
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+  border-width: 0;
 }

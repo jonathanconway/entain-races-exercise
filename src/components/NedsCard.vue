@@ -23,14 +23,44 @@ defineSlots<{
 </script>
 
 <template>
-  <div
-    class="w-full flex px-3 py-2 justify-between bg-white rounded-sm shadow-xs hover:shadow-md hover:-translate-y-[1px] focus:shadow-md focus:-translate-y-[1px] transition-all transition-discrete duration-200 cursor-pointer outline-none"
-    tabindex="0"
-  >
-    <div class="flex flex-col gap-2">
+  <div class="card" tabindex="0">
+    <div class="card-left">
       <slot name="left-hand-side" />
     </div>
 
     <slot name="right-hand-side" />
   </div>
 </template>
+
+<style lang="css" scoped>
+.card {
+  width: 100%;
+
+  display: flex;
+  padding-block: 0.5rem;
+  padding-inline: 0.75rem;
+  justify-content: space-between;
+  background-color: white;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  transition-property: all;
+  transition-duration: 0.2s;
+  transition-behavior: allow-discrete;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  box-shadow: 0 1px 2px 0 #0000000d;
+}
+
+.card:hover,
+.card:focus {
+  translate: 0 -1px;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+  outline: none;
+}
+
+.card-left {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+</style>

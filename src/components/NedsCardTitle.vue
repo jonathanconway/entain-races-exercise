@@ -15,6 +15,17 @@ defineSlots<{
   default: VNodeChild;
 }>();
 </script>
+
 <template>
-  <h3 class="font-bold text-xs uppercase"><slot /></h3>
+  <h3><slot /></h3>
 </template>
+
+<style lang="css" scoped>
+h3 {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  line-height: calc(1 / 0.75);
+  margin: 0;
+}
+</style>

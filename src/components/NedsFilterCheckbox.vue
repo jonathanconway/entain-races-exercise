@@ -35,24 +35,81 @@ const model = defineModel();
 </script>
 
 <template>
-  <label :key="id" :for="id" class="group relative flex flex-row items-center gap-2 py-4 sm:py-0">
+  <label :key="id" :for="id" class="checkbox-label">
     <input
       :id="id"
       :value="id"
       :title="title"
       v-model="model"
       type="checkbox"
-      class="absolute size-full opacity-0 [&+svg]:fill-transparent [&+svg]:bg-gray-100 [&+svg]:border-gray-300 [&:hover+svg]:bg-white [&:checked+svg]:bg-brand-dark [&:checked+svg]:border-brand-dark [&:hover+svg]:bg-gray-50 [&:checked+svg]:fill-white [&:checked:hover+svg]:bg-brand-light [&:checked:hover+svg]:border-brand-light [&:checked:focus+svg]:bg-brand-light [&:checked:focus+svg]:border-brand-light cursor-pointer"
+      class="checkbox-input"
     />
 
     <!--
-      Checkbox is styled with Tailwind CSS classes to create a custom appearance and uses an SVG icon that changes based on the state of the checkbox.
+      Checkbox is styled with CSS to create a custom appearance and uses an SVG icon that changes based on the state of the checkbox.
     -->
-    <NedsIconCheck
-      class="size-6 flex items-center border-2 rounded-sm transition-all transition-discrete duration-200 cursor-pointer"
-      aria-hidden="true"
-    />
+    <NedsIconCheck class="checkbox-icon" aria-hidden="true" />
 
     <slot />
   </label>
 </template>
+
+<style lang="css" scoped>
+.checkbox-label {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 1rem 0;
+  cursor: pointer;
+}
+
+@media (width >= 40rem) {
+  .checkbox-label {
+    padding: 0;
+  }
+}
+
+.checkbox-input {
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+  width: 100%;
+  height: 100%;
+}
+
+.checkbox-input + svg {
+  fill: transparent;
+  background-color: var(--color-gray-100);
+  border-color: var(--color-gray-300);
+  transition-property: all;
+  transition-duration: 0.2s;
+  transition-behavior: allow-discrete;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.checkbox-input:hover + svg {
+  background-color: var(--color-white);
+}
+
+.checkbox-input:checked + svg {
+  background-color: var(--color-brand-dark);
+  border-color: var(--color-brand-dark);
+  fill: var(--color-white);
+}
+
+.checkbox-input:checked:hover + svg,
+.checkbox-input:checked:focus + svg {
+  background-color: var(--color-brand-light);
+  border-color: var(--color-brand-light);
+}
+
+.checkbox-icon {
+  border-radius: 0.25rem;
+  border-width: 2px;
+  border-style: solid;
+}
+</style>

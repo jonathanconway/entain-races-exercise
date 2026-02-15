@@ -9,9 +9,16 @@ const isDevelopment = import.meta.env.MODE === "development";
 
 <template>
   <NedsHeader />
-  <main class="flex-1 bg-gray-200">
+  <main class="main">
     <NedsRaces />
   </main>
 
   <PiniaColadaDevtools v-if="isDevelopment" />
 </template>
+
+<style lang="css" scoped>
+.main {
+  flex: 1;
+  background-color: var(--bg-gray-200);
+}
+</style>

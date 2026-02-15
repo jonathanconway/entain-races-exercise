@@ -18,7 +18,7 @@ Before coding, understand the context and commit to an effective aesthetic direc
 
 **CRITICAL**: Choose a clear conceptual direction and execute it with precision. The key is intentionality and practicality, not intensity.
 
-Then implement working code (HTML/CSS/JS, Vue, Tailwind) that is:
+Then implement working code (HTML/CSS/JS, Vue) that is:
 
 - Production-grade and functional
 - Visually appealing and distinctive

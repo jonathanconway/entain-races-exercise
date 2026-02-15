@@ -16,7 +16,19 @@ defineSlots<{
 </script>
 
 <template>
-  <ul class="w-full flex flex-col gap-2">
+  <ul class="list">
     <slot />
   </ul>
 </template>
+
+<style lang="css" scoped>
+.list {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+</style>

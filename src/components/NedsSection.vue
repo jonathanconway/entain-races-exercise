@@ -16,7 +16,24 @@ defineSlots<{
 </script>
 
 <template>
-  <section class="flex flex-col gap-2 p-5 md:w-190 mx-auto">
+  <section class="section">
     <slot />
   </section>
 </template>
+
+<style lang="css" scoped>
+.section {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1.25rem;
+}
+
+@media (width > 40rem) {
+  .section {
+    width: 47.5rem;
+  }
+}
+</style>

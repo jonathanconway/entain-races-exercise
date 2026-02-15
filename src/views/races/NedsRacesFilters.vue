@@ -18,9 +18,24 @@ const { categories, filters } = useRacesFiltersView();
     >
       <NedsCategoryIcon
         :category-name="category.name"
-        class="*:fill-disabled size-12 sm:size-6"
+        class="category-icon *:fill-disabled size-12 sm:size-6"
         aria-hidden="true"
       />
     </NedsFilterCheckbox>
   </NedsFilterCheckboxGroup>
 </template>
+
+<style lang="css" scoped>
+.category-icon {
+  width: 3rem;
+  height: 3rem;
+  fill: #51657b;
+}
+
+@media (width >= 40rem) {
+  .category-icon {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+}
+</style>

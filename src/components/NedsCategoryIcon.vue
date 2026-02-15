@@ -35,15 +35,21 @@ defineSlots<{
 </script>
 
 <template>
-  <IconGreyhound v-if="categoryName === 'Greyhound racing'" class="m-1">
+  <IconGreyhound v-if="categoryName === 'Greyhound racing'" class="category-icon">
     <slot />
   </IconGreyhound>
 
-  <IconHarness v-else-if="categoryName === 'Harness racing'" class="m-1">
+  <IconHarness v-else-if="categoryName === 'Harness racing'" class="category-icon">
     <slot />
   </IconHarness>
 
-  <IconHorse v-else-if="categoryName === 'Horse racing'" class="m-1">
+  <IconHorse v-else-if="categoryName === 'Horse racing'" class="category-icon">
     <slot />
   </IconHorse>
 </template>
+
+<style lang="css" scoped>
+.category-icon {
+  margin: 0.25rem;
+}
+</style>

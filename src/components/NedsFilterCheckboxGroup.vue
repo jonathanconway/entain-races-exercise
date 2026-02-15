@@ -23,10 +23,22 @@ defineSlots<{
 </script>
 
 <template>
-  <fieldset class="flex flex-row gap-4 sm:justify-around justify-around">
+  <fieldset class="checkbox-group">
     <!-- The `legend` is visually hidden using the `sr-only` class, but it can be read by screen readers to improve accessibility. -->
     <legend class="sr-only">{{ legend }}</legend>
 
     <slot />
   </fieldset>
 </template>
+
+<style lang="css" scoped>
+.checkbox-group {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  justify-content: space-around;
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+</style>

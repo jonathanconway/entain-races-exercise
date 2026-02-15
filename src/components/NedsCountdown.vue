@@ -28,16 +28,13 @@ defineProps<{
 </script>
 
 <template>
-  <span class="flex flex-row items-center gap-3">
-    <span
-      v-if="countdownGettingClose"
-      class="inline-flex size-2 rounded-full bg-brand animate-ping"
-      aria-label="Getting close"
-    >
+  <span class="countdown-container">
+    <span v-if="countdownGettingClose" class="getting-close" aria-label="Getting close">
       &nbsp;
     </span>
     <time
-      :class="`text-sm font-bold ${countdownGettingClose ? 'text-brand-dark' : ''}`"
+      class="countdown-minutes-seconds"
+      :class="`minutes-seconds ${countdownGettingClose ? 'minutes-seconds--getting-close' : ''}`"
       :datetime="startDateTime"
       aria-label="Countdown to start"
       aria-live="off"
@@ -46,3 +43,29 @@ defineProps<{
     </time>
   </span>
 </template>
+
+<style lang="css" scoped>
+.countdown-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.getting-close {
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+  background-color: var(--color-brand);
+  animation: pulse 1s infinite;
+}
+
+.minutes-seconds {
+  font-size: 0.875rem;
+  font-weight: bold;
+}
+
+.minutes-seconds--getting-close {
+  color: var(--color-brand-dark);
+}
+</style>
