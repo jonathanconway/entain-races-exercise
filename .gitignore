@@ -35,3 +35,5 @@ __screenshots__/
 
 test-results/
 playwright-report/
+
+.DS_Store
